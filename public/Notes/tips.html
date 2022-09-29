@@ -1,0 +1,23 @@
+Film: 
+-titre /
+-poster /
+-description
+-durée
+-date de sortier /
+<!-- Nullable en partant du postulat qu'un film pourrait être anonyme et les documentaires pourraient ne pas contenir d'acteurs par exemple. -->
+
+-réalisateur /
+-acteurs/
+-genre / clé étrangère
+
+Personnes:
+-nom
+-prénom // nullable en cas de pseudonyme
+-date de naissance // nullable si anonymat, pas immutable en cas d erreur
+
+Genre:
+-nomn
+-icône
+
+Table intermédiaire entre film et personnes:
+-2 clés étrangères + rôlestit

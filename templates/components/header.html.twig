@@ -1,0 +1,29 @@
+<header>
+
+    <div class="logo-container">
+        <a href="">
+            <img src="{{ asset('image/clip_star_logo.svg') }}" alt="">
+        </a>
+        <a href="">
+            <span>MOVIE LIB</span>
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ path('movie_list')}}">Catalogue des films</a>
+            </li>
+            <li>
+                <a href="{{ path('movie_create')}}">Proposer un film</a>
+            </li>
+            <li>
+                <a href="{{ path('distribution_list')}}">Casting</a>
+            </li>
+            <li>
+                <a href="{{ path('movie_stats') }}">Statistiques</a>
+            </li>
+        </ul>
+
+    </nav>
+
+</header>

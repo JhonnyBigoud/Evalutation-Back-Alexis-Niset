@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
+
+/* font-family: 'Kanit', sans-serif; */
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: darkgoldenrod;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    width: 100%;
+    align-items: center;
+}
+
+header a { 
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.logo-container {
+    display: flex;
+    background-color: coral;
+    min-width: 300px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-container img,
+.logo-container p {
+    padding: 20px;
+}
+
+.logo-container a {
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 20px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: brown;
+    font-size: 1.5rem;
+}
+
+main {
+    background-color: #161e1e;
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-container {
+    width: 80%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #c1c1c1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container1 li {
+    margin: 0 20px;
+}
+.footer-container1 {
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footer-container2 {
+    background-color: black;
+    width: 100%;
+}
+
+footer li {
+    padding: 20px;
+}

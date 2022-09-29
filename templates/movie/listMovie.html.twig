@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Catalogue - {{ parent() }}
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/listMovie.css') }}">
+{% endblock %}
+
+{% block body %}
+    <h1>Catalogue</h1>
+
+    {# {% for movie in movies %}
+            <img src="{{ asset('image/movie/' ~ movie.poster) }}" alt="{{ movie.name }}">
+            </div>
+                <h2>{{ movie.name }}</h2>
+                <p>
+                    {{ movie.description}} 
+                </p>
+                <a href="{{ path('movie_single', {id: movie.id}) }}" class="button">
+                    Découvrir
+                </a>
+            </div>
+    {% endfor %} #}
+{% endblock %}
